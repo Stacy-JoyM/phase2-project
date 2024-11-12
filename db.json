@@ -1,0 +1,124 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "name": "Classic Beef Burger",
+        "price": 9.95,
+        "description": "Juicy grilled beef patty with lettuce, tomato, and cheese.",
+        "image": "https://angelbay.com/hubfs/2023%20-%20Angel%20Bay%20Website/Recipes/Images/780x750/Kiwi-Beef-Burger-with-a-Classic-Onion-Dip-Mayo-Angel-Bay-Recipe-780x750.jpg",
+        "on_offer": true,
+        "category": "Beef"
+      },
+      {
+        "id": 2,
+        "name": "BBQ Beef Ribs",
+        "price": 14.99,
+        "description": "Tender beef ribs with a smoky BBQ sauce.",
+        "image": "https://iheartumami.com/wp-content/uploads/2023/08/Air-fryer-short-ribs-boneless-1-700x1049.jpg",
+        "on_offer": false,
+        "category": "Beef"
+      },
+      {
+        "id": 3,
+        "name": "Grilled Chicken Sandwich",
+        "price": 8.99,
+        "description": "Grilled chicken breast with lettuce, tomato, and mayo.",
+        "image": "https://somethingaboutsandwiches.com/wp-content/uploads/2021/04/grilled-chicken-sandwich.jpg",
+        "on_offer": true,
+        "category": "Chicken"
+      },
+      {
+        "id": 4,
+        "name": "Chicken Wings",
+        "price": 10.99,
+        "description": "Spicy chicken wings served with ranch dressing.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT17ptoZZZjeF4-S0fnmF_duqW-8sGLHjLAWw&s",
+        "on_offer": false,
+        "category": "Chicken"
+      },
+      {
+        "id": 5,
+        "name": "Kiddies Mini Burger",
+        "price": 4.99,
+        "description": "Mini beef burger with cheese, perfect for kids.",
+        "image": "https://www.appetizeraddiction.com/wp-content/uploads/2021/06/mini-cheeseburgers-1-720x720.jpg",
+        "on_offer": true,
+        "category": "Kiddies"
+      },
+      {
+        "id": 6,
+        "name": "Kiddies Chicken Nuggets",
+        "price": 4.99,
+        "description": "Crispy chicken nuggets served with ketchup.",
+        "image": "https://i0.wp.com/thrivelittle.com/wp-content/uploads/2022/10/plate-of-chicken-nuggets.jpg?fit=1024%2C665&ssl=1",
+        "on_offer": false,
+        "category": "Kiddies"
+      },
+      {
+        "id": 7,
+        "name": "Veggie Burger",
+        "price": 7.99,
+        "description": "Delicious veggie patty with lettuce, tomato, and avocado.",
+        "image": "https://www.burgerking.com.my/upload/image/Product/67/Mushroom%20Veggie%20Ala%20Carte.png",
+        "on_offer": true,
+        "category": "Veggie"
+      },
+      {
+        "id": 8,
+        "name": "Grilled Veggie Wrap",
+        "price": 6.99,
+        "description": "Grilled vegetables wrapped in a soft tortilla.",
+        "image": "https://www.hiddenvalley.com/wp-content/uploads/2021/04/roasted-ranch-veggie-wrap-RDP.jpg",
+        "on_offer": false,
+        "category": "Veggie"
+      },
+      {
+        "id": 9,
+        "name": "Veggie Salad",
+        "price": 5.99,
+        "description": "Fresh veggie salad with cucumbers, tomatoes, and carrots.",
+        "image": "https://cdn.jwplayer.com/v2/media/wGEqBtuf/thumbnails/qSXwlEH3.jpg",
+        "on_offer": true,
+        "category": "Veggie"
+      },
+      {
+        "id": 10,
+        "name": "Cheese Quesadilla",
+        "price": 5.99,
+        "description": "Melted cheese in a grilled tortilla, served with salsa.",
+        "image": "https://www.inspiredtaste.net/wp-content/uploads/2021/03/Vegetable-Quesadilla-Recipe-1-1200.jpg",
+        "on_offer": false,
+        "category": "Veggie"
+      }
+    ],
+    
+    "orders": [
+      {
+        "id": 101,
+        "cost": 29.97,
+        "address": "456 Maple Avenue, Citytown",
+        "items": [
+          {
+            "item_id": 1,
+            "quantity": 2
+          },
+          {
+            "item_id": 4,
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "cost": 14.98,
+        "address": "789 Oak Street, Metropolis",
+        "items": [
+          {
+            "item_id": 3,
+            "quantity": 2
+          }
+        ]
+      }
+    ]
+  }
+  
