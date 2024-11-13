@@ -60,7 +60,7 @@
         "price": 7.99,
         "description": "Delicious veggie patty with lettuce, tomato, and avocado.",
         "image": "https://www.burgerking.com.my/upload/image/Product/67/Mushroom%20Veggie%20Ala%20Carte.png",
-        "on_offer": true,
+        "on_offer": false,
         "category": "Veggie"
       },
       {
@@ -78,7 +78,7 @@
         "price": 5.99,
         "description": "Fresh veggie salad with cucumbers, tomatoes, and carrots.",
         "image": "https://cdn.jwplayer.com/v2/media/wGEqBtuf/thumbnails/qSXwlEH3.jpg",
-        "on_offer": true,
+        "on_offer": false,
         "category": "Veggie"
       },
       {
@@ -87,9 +87,33 @@
         "price": 5.99,
         "description": "Melted cheese in a grilled tortilla, served with salsa.",
         "image": "https://www.inspiredtaste.net/wp-content/uploads/2021/03/Vegetable-Quesadilla-Recipe-1-1200.jpg",
-        "on_offer": false,
+        "on_offer": true,
         "category": "Veggie"
       }
+    ],
+
+    "categories":[
+      {
+        "name":"All",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0cFleHkr83XTp-0AALLRqiAOs7nZxme-OVQ&s"
+      },
+      {
+        "name":"Beef",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx1Pa0EraScNvmiWtQ1NPxtVLlhLU61jmTg&s"
+      },
+      {
+        "name":"Chicken",
+        "image":"https://www.chickqueen.ca/wp-content/uploads/2022/10/fried-chicken-bucket.jpg"
+      },
+      {
+        "name":"Veggie",
+        "image":"https://www.eatingwell.com/thmb/FtbDXyrMrBjwz_8He_qPfeAIRG8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6610112-6f673e8abd5344ce8c96efff68db5b57.jpg"
+      },
+      {
+        "name":"Kiddies",
+        "image":"https://www.eatthis.com/wp-content/uploads/sites/4/2023/06/Shake-Shack-burgers.jpg?quality=82&strip=1"
+      }
+
     ],
     
     "orders": [
