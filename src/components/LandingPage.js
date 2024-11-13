@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import "./LandingPage.css"
 
-function LandingPage({ menu }) {
+function LandingPage({ menu , isLoading}) {
   const [currentOfferIndex, setCurrentOfferIndex] = useState(0);
+
+  
   
   // Filter menu items that are on offer
   const onOfferMeals = menu.filter(item => item.on_offer);
@@ -16,9 +18,14 @@ function LandingPage({ menu }) {
     // Clear interval on component unmount
     return () => clearInterval(intervalId);
   }, [onOfferMeals.length]);
-
+   
   // Get the currently displayed offer item
   const currentOffer = onOfferMeals[currentOfferIndex];
+
+  // If loading or no menu data, show a loading message
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="d-flex justify-content-around align-items-center landing-div"> 

@@ -1,8 +1,11 @@
 import React from 'react'
+import MenuList from '../components/MenuList'
 
-function Menu() {
+function Menu({menu}) {
   return (
-    <div>Menu</div>
+    <>
+      <MenuList menu={menu}/>
+    </>
   )
 }
 
