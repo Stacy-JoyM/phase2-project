@@ -15,7 +15,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(()=>{
-    fetch('https://json-server-template-676m.onrender.com//menu')
+    fetch('https://json-server-template-676m.onrender.com/menu')
     .then((response) => response.json())
     .then((data) => {
       setMenu(data) 
