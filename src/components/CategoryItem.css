@@ -1,9 +1,33 @@
 card-div{
-    width: "8rem";
-    height: '8rem';
+    width: 8rem;
+    height: 8rem;
 
 }
 
 image{
     height:80%;
 }
+.category-card{
+    width: 7rem;
+    min-height: 7rem;
+    cursor:pointer;
+    border-radius:5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
+
+}
+.category-card:hover {
+    opacity:0.7;
+}
+
+.category p{
+   font-size:18px;
+   color:white;
+   font-weight:bold;
+   margin-bottom:0px;
+
+}
+

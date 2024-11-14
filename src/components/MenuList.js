@@ -9,9 +9,9 @@ function MenuList({menu}) {
 
   ))
   return (
-    <ul className="menu-list">
+    <div className="menu-list">
         {menuList}
-    </ul>
+    </div>
   )
 }
 

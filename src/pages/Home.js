@@ -1,6 +1,5 @@
 import React from 'react'
 import LandingPage from '../components/LandingPage'
-import CategorySlider from "../components/CategorySlider"
 
 function Home({menu , isLoading}) {
   
@@ -9,7 +8,6 @@ function Home({menu , isLoading}) {
     <>
       <>
         <LandingPage menu={menu} isLoading={isLoading}/>
-        <CategorySlider menu={menu} />
       </>
   </>
   )

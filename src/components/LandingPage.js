@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import CategorySlider from './CategorySlider';
 import "./LandingPage.css"
 
 function LandingPage({ menu , isLoading}) {
@@ -13,7 +14,7 @@ function LandingPage({ menu , isLoading}) {
     // Set up an interval to change the displayed item every 5 seconds
     const intervalId = setInterval(() => {
       setCurrentOfferIndex(prevIndex => (prevIndex + 1) % onOfferMeals.length);
-    }, 3000);
+    }, 4000);
 
     // Clear interval on component unmount
     return () => clearInterval(intervalId);
@@ -28,17 +29,19 @@ function LandingPage({ menu , isLoading}) {
   }
 
   return (
-    <div className="d-flex justify-content-around align-items-center landing-div"> 
-        <div className="w-50 ms-5">
-            <h1> Check out this week's offer</h1>
-            <h5>{currentOffer.name}</h5>
-            <p>{currentOffer.description}</p>
-            <p>${currentOffer.price}</p>
+    <div className="landing-div" style={{ backgroundImage: `url(${currentOffer.image})` }}> 
+      <div class="big-text">
+          Hot Deals Of The Week!!
+      </div>
+      <div className="text-content">
+        <h1>{currentOffer.name}</h1>
+        <p>{currentOffer.long_description}</p>
+        <div className="action"> 
+          <h4>Now ${currentOffer.price}</h4>
+          <button className="btn btn-success button">Order Now</button>
         </div>
-        <div className="w-50">
-          <img src={currentOffer.image} alt={currentOffer.name} className="landing-image" ></img>
-        </div>
-     
+      </div>
+         <CategorySlider menu={menu} />
     </div>
   );
 }

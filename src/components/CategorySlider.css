@@ -1,0 +1,7 @@
+.category-slider{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:20px;
+    min-width:900px;
+}

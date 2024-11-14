@@ -1,11 +1,12 @@
 import React, {useState, useEffect} from 'react'
 import CategoryItem from './CategoryItem'
+import "./CategorySlider.css"
 
 function CategorySlider() {
     const [categories, setCategories] = useState([])
     
     useEffect(()=>{
-        fetch('http://localhost:5000/categories')
+        fetch('https://json-server-template-676m.onrender.com/categories')
         .then((response) => response.json())
         .then((data) => {
           setCategories(data)
@@ -16,10 +17,10 @@ function CategorySlider() {
     ))
 
   return (
-    <ul className="d-flex justify-content-around align-items-center">
+    <div className="category-slider">
         {categoriesDisplay}
     
-    </ul>
+    </div>
   )
 }
 
