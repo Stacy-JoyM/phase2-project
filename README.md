@@ -3,7 +3,7 @@
 ## Date : 15/10/2024
 
 ### Foodie App Overview
-Check out project here: [View Project](https://fluffy-sundae-8e1233.netlify.app/)
+Check out project here: [View Project](https://fluffy-sundae-8e1233.netlify.app/). The presentation for this project is located [Here](https://www.canva.com/design/DAGT0BFfX7o/xAfhVbRSSpvBL9VrVb6jHw/edit)
 
 Description: An application that allows user to view menu from restaurant, get total price for food and place an order.
 
@@ -11,14 +11,13 @@ Description: An application that allows user to view menu from restaurant, get t
 Most individual restaurant apps(Exempting food apps that hosts multiple restaurants like Glovo) provide irresponsive interfaces or complicated interfaces that make it difficult for users to use them for online delivery services.
 
 ### Solution statement
-Create a Food App with a simple user interface that helps users navigate easily through menu items and ultimately make purchase.
+Foodie App provides a simple user interface that helps users navigate easily through menu items and ultimately make purchase.
 
 
 ### Project MVP/User Stories
-A user:
-- can view all the available food items
-- can update incart in the database
-- can remove items from incart
+Making an order and processing payment
+Calculating price of the items  in cart and providing opportunity to update/delete
+Quick access to on offer valued meals
 
 
 ### Technologies Used
