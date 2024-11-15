@@ -8,7 +8,8 @@
         "long_description": "Our Classic Beef Burger features a perfectly grilled beef patty, complemented by fresh lettuce, juicy tomato, and melted cheese, all nestled in a toasted bun. This classic burger is a favorite for those who crave a savory and satisfying meal, whether for lunch or dinner. Served with crispy fries on the side, it's the ultimate comfort food.",
         "image": "https://angelbay.com/hubfs/2023%20-%20Angel%20Bay%20Website/Recipes/Images/780x750/Kiwi-Beef-Burger-with-a-Classic-Onion-Dip-Mayo-Angel-Bay-Recipe-780x750.jpg",
         "on_offer": false,
-        "category": "Beef"
+        "category": "Beef",
+        "inCart":false
       },
       {
         "id": 2,
@@ -18,7 +19,8 @@
         "long_description": "Our BBQ Beef Ribs are slow-cooked to perfection, resulting in tender, fall-off-the-bone meat. The smoky BBQ sauce, with a hint of sweetness and spice, adds depth of flavor to each bite. Whether you're a BBQ enthusiast or new to this indulgence, our ribs are served with your choice of sides for a truly satisfying meal.",
         "image": "https://iheartumami.com/wp-content/uploads/2023/08/Air-fryer-short-ribs-boneless-1-700x1049.jpg",
         "on_offer": false,
-        "category": "Beef"
+        "category": "Beef",
+        "inCart": false
       },
       {
         "id": 3,
@@ -28,7 +30,8 @@
         "long_description": "The Grilled Chicken Sandwich is a perfect balance of tender grilled chicken breast, crisp lettuce, and ripe tomato, all smothered in creamy mayo. Served in a fresh sandwich bun, it's a lighter, healthier option without compromising on flavor. Ideal for a quick, yet delicious meal that satisfies your cravings.",
         "image": "https://somethingaboutsandwiches.com/wp-content/uploads/2021/04/grilled-chicken-sandwich.jpg",
         "on_offer": true,
-        "category": "Chicken"
+        "category": "Chicken",
+        "inCart":false
       },
       {
         "id": 4,
@@ -38,7 +41,8 @@
         "long_description": "Our Chicken Wings are crispy, spicy, and flavorful, served with a side of cool ranch dressing to balance out the heat. Each wing is coated in a bold sauce that packs a punch, perfect for those who love a little spice. Pair with a cold drink and enjoy these wings as an appetizer or main course.",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT17ptoZZZjeF4-S0fnmF_duqW-8sGLHjLAWw&s",
         "on_offer": false,
-        "category": "Chicken"
+        "category": "Chicken",
+        "inCart":false
       },
       {
         "id": 5,
@@ -48,7 +52,8 @@
         "long_description": "Our Kiddies Mini Burger is a fun-sized delight, featuring a juicy beef patty topped with melted cheese and nestled in a soft, perfectly toasted mini bun. Ideal for younger appetites, this burger is served with a side of crispy fries and a refreshing drink, making it the perfect kid-friendly meal.",
         "image": "https://www.appetizeraddiction.com/wp-content/uploads/2021/06/mini-cheeseburgers-1-720x720.jpg",
         "on_offer": false,
-        "category": "Kiddies"
+        "category": "Kiddies",
+        "inCart":false
       },
       {
         "id": 6,
@@ -58,7 +63,8 @@
         "long_description": "Our Kiddies Chicken Nuggets are crispy on the outside and tender on the inside. Each nugget is made from premium chicken, lightly breaded and fried to perfection. Paired with a side of ketchup for dipping, this meal is a hit with young diners and perfect for any occasion.",
         "image": "https://i0.wp.com/thrivelittle.com/wp-content/uploads/2022/10/plate-of-chicken-nuggets.jpg?fit=1024%2C665&ssl=1",
         "on_offer": false,
-        "category": "Kiddies"
+        "category": "Kiddies",
+        "inCart":false
       },
       {
         "id": 7,
@@ -68,7 +74,8 @@
         "long_description": "Our Veggie Burger is made with a savory, plant-based patty packed with flavors. It comes topped with fresh lettuce, tomato, and creamy avocado, offering a satisfying bite that’s both healthy and delicious. A great option for vegetarians or anyone looking for a lighter alternative to a traditional burger.",
         "image": "https://www.burgerking.com.my/upload/image/Product/67/Mushroom%20Veggie%20Ala%20Carte.png",
         "on_offer": false,
-        "category": "Veggie"
+        "category": "Veggie",
+        "inCart":false
       },
       {
         "id": 8,
@@ -78,7 +85,8 @@
         "long_description": "Our Grilled Veggie Wrap is packed with colorful, grilled vegetables, wrapped in a soft and warm tortilla. The combination of tender vegetables with the subtle seasoning creates a fresh and satisfying meal. It’s the perfect option for a light lunch or a wholesome snack.",
         "image": "https://www.hiddenvalley.com/wp-content/uploads/2021/04/roasted-ranch-veggie-wrap-RDP.jpg",
         "on_offer": false,
-        "category": "Veggie"
+        "category": "Veggie",
+        "inCart":false
       },
       {
         "id": 9,
@@ -88,7 +96,8 @@
         "long_description": "Our Veggie Salad is a refreshing combination of crisp cucumbers, juicy tomatoes, and other fresh vegetables. Lightly tossed in a vinaigrette dressing, this salad is perfect as a side dish or a healthy meal option for those looking to add more greens to their diet.",
         "image": "https://c.ndtvimg.com/2021-06/1fb38qj_salad_650x300_07_June_21.jpg",
         "on_offer": false,
-        "category": "Veggie"
+        "category": "Veggie",
+        "inCart":false
       },
       {
         "id": 10,
@@ -98,7 +107,8 @@
         "long_description": "Our Cheese Quesadilla features melted cheese sandwiched between two lightly toasted tortillas, creating a crispy, gooey, and delicious bite. Served with a side of fresh salsa, this dish is perfect as a light snack or a simple yet satisfying meal.",
         "image": "https://www.inspiredtaste.net/wp-content/uploads/2021/03/Vegetable-Quesadilla-Recipe-1-1200.jpg",
         "on_offer": true,
-        "category": "Veggie"
+        "category": "Veggie",
+        "inCart":false
       },
       {
         "id": 11,
@@ -108,7 +118,8 @@
         "long_description": "Our Spicy Beef Nachos are a perfect combination of crispy tortilla chips loaded with seasoned beef, melted cheese, and spicy jalapeños. Topped with a dollop of sour cream and a sprinkle of fresh cilantro, this dish brings bold flavors in every bite. It's the ultimate shareable snack or appetizer, ideal for those who love a little heat in their meal.",
         "image": "https://ourbalancedbowl.com/wp-content/uploads/2020/10/IMG_2288-683x1024.jpg",
         "on_offer": false,
-        "category": "Beef"
+        "category": "Beef",
+        "inCart":false
       },
       {
         "id": 12,
@@ -118,7 +129,8 @@
         "long_description": "Our Bacon Cheeseburger is a mouthwatering classic. A perfectly grilled beef patty is topped with crispy bacon, melted cheese, and fresh tomato slices. Served in a toasted bun with lettuce, pickles, and a generous helping of ketchup and mustard, this burger is an indulgent treat for burger lovers.",
         "image": "https://www.simplyrecipes.com/thmb/cgJTtVSTy-ftI1dBM4P2x2FJf14=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Bacon-Cheeseburger-LEAD-2b-6606850da0164612b5fb406a0e33f8df.jpg",
         "on_offer": false,
-        "category": "Beef"
+        "category": "Beef",
+        "inCart":false
       },
       {
         "id": 13,
@@ -128,7 +140,8 @@
         "long_description": "Our Buffalo Chicken Wrap combines the perfect amount of spice with the coolness of blue cheese. Tender buffalo chicken is wrapped in a soft tortilla along with crunchy lettuce, juicy tomatoes, and a drizzle of blue cheese dressing. It's a deliciously messy, but satisfying meal that's perfect for lunch or dinner.",
         "image": "https://theflavoursofkitchen.com/wp-content/uploads/2023/05/buffalo-chicken-wrap-6-2-scaled.jpg",
         "on_offer": true,
-        "category": "Chicken"
+        "category": "Chicken",
+        "inCart":false
       },
       {
         "id": 14,
@@ -138,7 +151,8 @@
         "long_description": "Our Chicken Caesar Salad is a fresh and hearty option. Tender, grilled chicken breast sits atop crisp romaine lettuce, tossed in a creamy Caesar dressing. Topped with crunchy croutons and grated Parmesan cheese, this salad is the perfect combination of flavors and textures, ideal for a lighter meal or side.",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaYyc7KKWPLb7lNF_u0sLufDlzZNqFUk68cg&s",
         "on_offer": false,
-        "category": "Chicken"
+        "category": "Chicken",
+        "inCart":false
       },
       {
         "id": 15,
@@ -148,7 +162,8 @@
         "long_description": "Our Kiddies Fish Fingers are the perfect meal for little ones. Made from tender fish fillets, these fingers are coated in a crispy breading and fried to golden perfection. Served with a side of tangy tartar sauce for dipping, they are a kid-friendly favorite that's both delicious and fun to eat.",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5lv8x6QZiStbscRZuuoqaCJtxWIBxAM6s8w&s",
         "on_offer": false,
-        "category": "Kiddies"
+        "category": "Kiddies",
+        "inCart":false
       },
       {
         "id": 16,
@@ -158,7 +173,8 @@
         "long_description": "Our Mini Cheese Pizza is designed for smaller appetites, featuring a soft, doughy crust topped with a generous layer of melted mozzarella cheese. It's simple, yet irresistible, and makes the perfect meal for kids. Pair with a side of veggies or fries to make it a complete meal.",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRwKMKrJnZzFTDTjdeeUW6hRbJd6m8pe-dqA&s",
         "on_offer": true,
-        "category": "Kiddies"
+        "category": "Kiddies",
+        "inCart": false
       },
       {
         "id": 17,
@@ -168,7 +184,8 @@
         "long_description": "Our Spicy Veggie Tacos are packed with flavor. Soft corn tortillas are filled with spicy grilled veggies, including peppers, onions, and zucchini, topped with fresh avocado slices. Finished off with a squeeze of lime and a sprinkle of cilantro, these tacos are a vibrant, plant-based option that’s both healthy and delicious.",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxJspHFMAvt0XGCC4BqmJSKpSjNZvlitYkDQ&s",
         "on_offer": false,
-        "category": "Veggie"
+        "category": "Veggie",
+        "inCart": false
       },
       {
         "id": 18,
@@ -178,7 +195,8 @@
         "long_description": "Our Falafel Wrap features crispy, golden falafel balls made from chickpeas and herbs, wrapped in a soft tortilla with crisp lettuce, juicy tomato, and creamy tahini sauce. This healthy, Mediterranean-inspired wrap is perfect for those looking for a meat-free yet filling meal.",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZgFWsPWc2yMhWMng3Gy4OYh6QAJKrc_x87A&s",
         "on_offer": false,
-        "category": "Veggie"
+        "category": "Veggie",
+        "inCart":false
       },
       {
         "id": 19,
@@ -188,7 +206,8 @@
         "long_description": "Our Loaded Fries are a perfect indulgence. Crispy golden fries are smothered in melted cheese, topped with spicy jalapeños, and finished off with a generous dollop of sour cream. These fries make for the perfect appetizer or a tasty side dish to any main course.",
         "image": "https://allourway.com/wp-content/uploads/2022/07/Loaded-Fries-30.jpg-1200-x-1200.jpg",
         "on_offer": false,
-        "category": "Sides"
+        "category": "Sides",
+        "inCart":false
       },
       {
         "id": 20,
@@ -198,7 +217,8 @@
         "long_description": "Our Mozzarella Sticks are crispy on the outside, with a gooey, cheesy interior. Served with a side of marinara sauce for dipping, these mozzarella sticks are the perfect combination of texture and flavor, making them a great appetizer or side dish to enjoy with your meal.",
         "image": "https://beplantwell.com/wp-content/uploads/2023/01/IMG_8395-540x720.jpg",
         "on_offer": false,
-        "category": "Sides"
+        "category": "Sides",
+        "inCart":false
       }
     ],
 

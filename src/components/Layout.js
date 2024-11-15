@@ -4,10 +4,10 @@ import Footer from "./Footer"
 import { Outlet } from 'react-router-dom'
 
 //Ensure all pages are contained within NavBar and Footer
-function Layout() {
+function Layout({cartCount}) {
   return (
     <div>
-        <NavBar />
+        <NavBar cartCount={cartCount}/>
         <Outlet />      
         <Footer />
     </div>

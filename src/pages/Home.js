@@ -5,11 +5,9 @@ function Home({menu , isLoading}) {
   
 
   return (
-    <>
       <>
-        <LandingPage menu={menu} isLoading={isLoading}/>
+        <LandingPage menu={menu} isLoading={isLoading} />
       </>
-  </>
   )
 }
 

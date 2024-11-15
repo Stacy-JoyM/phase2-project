@@ -2,7 +2,7 @@
 .landing-div{
     display: flex;
     flex-direction:column;
-    justify-content: space-around;
+    /* justify-content: center; */
     align-items: center;
     width: 100%;
     height: 92vh;
@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     object-fit: cover;
     padding-left:50px;
-    gap:50px;
+    gap:74px;
     /* background-color: rgba(0, 0, 0, 0.9); */
     /* position: relative; */
 }
@@ -19,11 +19,11 @@
     font-size:35px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight:700; 
-    padding-top:10px;
+    padding-top:20px;
     color:green; 
     border-radius:5px;
     padding:5px;
-    margin-top:20px;
+    /* margin-top:80px; */
     
 }
 .text-content{
@@ -34,27 +34,33 @@
     border-radius: 10px;
     padding-left:50px;
     padding-right:150px;
+    margin-top:160px
   }
 
 
  .text-content h1{
     font-size:50px;
+    font-weight:bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     /* font-family:'Courier New', Courier, monospace; */
  }
- .text-content h5{
+ .text-content h4{
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-size:25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
  }
 
  .text-content p{
     font-size:18px;
     font-weight:bold;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
  }
  
 
  .button{
     width:200px;
-    font-size:15px;
+    font-size:16px;
     background-color: white;
     color:#E6671E; 
     border:none;
@@ -66,8 +72,16 @@
     background-color:#E6671E; 
 
  }
- .action{
+ .action-landing{
     display:flex;
     justify-content:center;
     gap:100px;
+ }
+ .action-landing h5{
+   font-size:28px;
+   font-weight:bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   color:#1BF24D; 
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
  }

@@ -17,10 +17,11 @@ function CategorySlider() {
     ))
 
   return (
-    <div className="category-slider">
-        {categoriesDisplay}
     
-    </div>
+      <div className="category-slider">
+          {categoriesDisplay}
+      
+      </div>
   )
 }
 

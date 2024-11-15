@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import CategorySlider from './CategorySlider';
 import "./LandingPage.css"
 
-function LandingPage({ menu , isLoading}) {
+function LandingPage({ menu, isLoading }) {
   const [currentOfferIndex, setCurrentOfferIndex] = useState(0);
+  const navigate = useNavigate();
 
-  
-  
   // Filter menu items that are on offer
   const onOfferMeals = menu.filter(item => item.on_offer);
 
@@ -27,18 +27,22 @@ function LandingPage({ menu , isLoading}) {
   if (isLoading) {
     return <div>Loading...</div>;
   }
+  //function that redirects to cart 
+   // Handle Order Button Click
+   const handleOrderClick = () => {
+    // Navigate to Order page and pass the current item's id
+    navigate('/menu');
+  };
 
   return (
     <div className="landing-div" style={{ backgroundImage: `url(${currentOffer.image})` }}> 
-      <div class="big-text">
-          Hot Deals Of The Week!!
-      </div>
       <div className="text-content">
         <h1>{currentOffer.name}</h1>
         <p>{currentOffer.long_description}</p>
-        <div className="action"> 
-          <h4>Now ${currentOffer.price}</h4>
-          <button className="btn btn-success button">Order Now</button>
+        <div className="action-landing"> 
+          <h5>Now ${currentOffer.price}</h5>
+          <button className="btn btn-success button"
+                  onClick={handleOrderClick}>Order Now</button>
         </div>
       </div>
          <CategorySlider menu={menu} />

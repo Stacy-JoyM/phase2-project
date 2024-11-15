@@ -10,11 +10,9 @@ function CategoryItem({category}) {
         navigate("/menu")
     }
   return (
-    <div className="category">
-      <p>{category.name}</p>
       <div className="category-card" style={{backgroundImage: `url(${category.image})` }} onClick={handleCategoryClick}>
+          <p>{category.name}</p>
       </div>
-    </div>
   )
 }
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import MenuList from '../components/MenuList'
 
-function Menu({menu}) {
+function Menu({menu, toggleCart, handleToggleCart}) {
   return (
     <>
-      <MenuList menu={menu}/>
+      <MenuList menu={menu} toggleCart={toggleCart} handleToggleCart={handleToggleCart}/>
     </>
   )
 }
